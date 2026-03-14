@@ -94,7 +94,7 @@ body{
 /* home section styling */
 .home{
     background: url("images/banner_1.jpg") no-repeat center;
-    height: 800px;
+    height: 600px;
     color: #fff;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
@@ -331,10 +331,6 @@ footer{
     .max-width{
         padding: 0 50px;
     }
-
-    .teams .teams-content .carousel {
-        grid-auto-columns: calc((100% / 2) - 9px);
-    }
 }
 
 @media(max-width: 947px){
@@ -375,8 +371,9 @@ footer{
     .max-width{
         padding: 0 23px;
     }
-    .career{
-        margin-top: 500px;
+    .home{
+        height: 800px;
+        margin-bottom: 300px;
     }
     .serv-content {
         grid-auto-columns: 100%;
