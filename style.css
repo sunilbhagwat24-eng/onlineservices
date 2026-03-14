@@ -94,7 +94,7 @@ body{
 /* home section styling */
 .home{
     background: url("images/banner_1.jpg") no-repeat center;
-    height: 100vh;
+    height: 600px;
     color: #fff;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
