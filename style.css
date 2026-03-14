@@ -94,7 +94,7 @@ body{
 /* home section styling */
 .home{
     background: url("images/banner_1.jpg") no-repeat center;
-    height: 600px;
+    height: 100vh;
     color: #fff;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
@@ -144,11 +144,9 @@ section{
 
 .serv-content{
     display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: calc((100% / 4) - 12px);
-    gap: 16px;
-    overflow-x: auto;
-    padding: 10px 0;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
 }
 
 
@@ -208,6 +206,7 @@ section{
     font-family: 'Ubuntu', sans-serif;
     padding: 150px 0;
 }
+
 /* my contact section styling start */
 .contact{
     font-family: 'Poppins', sans-serif;
@@ -375,6 +374,9 @@ footer{
 @media(max-width: 690px){
     .max-width{
         padding: 0 23px;
+    }
+    .career{
+        margin-top: 500px;
     }
     .serv-content {
         grid-auto-columns: 100%;
